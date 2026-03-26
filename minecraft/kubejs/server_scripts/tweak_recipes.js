@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
             amount: 90,
             tag: 'forge:molten_gold'
         },
-        result: { item: 'immersiveengineering:plate_gold' }         // Arg 3: the item to replace it with
+        result: { item: 'immersiveengineering:plate_gold' }
     })
     event.custom({
         type: 'tconstruct:casting_table',
@@ -189,60 +189,69 @@ ServerEvents.recipes(event => {
         result: { item: 'immersiveengineering:plate_gold' }
     })
 
+    //Unify dusts and ingots
+
+    //Iron
     event.replaceOutput(
         { output: 'create:crushed_raw_iron' },
         'create:crushed_raw_iron',
         'immersiveengineering:dust_iron'
     )
 
+    //Gold
     event.replaceOutput(
         { output: 'create:crushed_raw_gold' },
         'create:crushed_raw_gold',
         'immersiveengineering:dust_gold'
     )
 
+    //Copper
     event.replaceOutput(
         { output: 'create:crushed_raw_copper' },
         'create:crushed_raw_copper',
         'immersiveengineering:dust_copper'
     )
 
-    event.replaceOutput(
-        { output: 'create:crushed_raw_zinc' },
-        'create:crushed_raw_zinc',
-        'immersiveengineering:dust_zinc'
-    )
-
+    //Silver
     event.replaceOutput(
         { output: 'create:crushed_raw_silver' },
         'create:crushed_raw_silver',
         'immersiveengineering:dust_silver'
     )
 
+    //Lead
     event.replaceOutput(
         { output: 'create:crushed_raw_lead' },
         'create:crushed_raw_lead',
         'immersiveengineering:dust_lead'
     )
 
+    //Aluminum
     event.replaceOutput(
         { output: 'create:crushed_raw_aluminum' },
         'create:crushed_raw_aluminum',
         'immersiveengineering:dust_aluminum'
     )
 
+    //Uranium
     event.replaceOutput(
         { output: 'create:crushed_raw_uranium' },
         'create:crushed_raw_uranium',
         'immersiveengineering:dust_uranium'
     )
 
+    //Nickel
     event.replaceOutput(
         { output: 'create:crushed_raw_nickel' },
         'create:crushed_raw_nickel',
         'immersiveengineering:dust_nickel'
     )
 
+    //Steel
+
+    //Bronze
+
+    event.remove({ id: 'immersiveengineering:alloysmelter/bronze'})
 
     //Removing the Immersive Engineering recipe for electrum ingot from nuggets, to make it fully oredictionary compatible
     event.remove({ id: 'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum' })
@@ -266,18 +275,18 @@ ServerEvents.recipes(event => {
     })
 
     //Steel is cooler than iron
-    event.remove({ id: 'cyber_ware_port:katana' })
-    event.shaped('cyber_ware_port:katana',
-                 [
-                    '  A',
-                    ' A ',
-                    'B  '
-                 ],
-                 {
-                     A: '#forge:ingots/steel',
-                     B: 'minecraft:stick'
-                 }
-    )
+    //event.remove({ id: 'cyber_ware_port:katana' })
+    //event.shaped('cyber_ware_port:katana',
+    //             [
+    //                '  A',
+    //                ' A ',
+    //                'B  '
+    //             ],
+    //             {
+    //                 A: '#forge:ingots/steel',
+    //                 B: 'minecraft:stick'
+    //             }
+    //)
 
     event.replaceInput(
         { input: 'minecraft:honeycomb' },

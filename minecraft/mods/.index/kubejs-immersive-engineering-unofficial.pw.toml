@@ -1,9 +1,10 @@
 filename = 'kubejs-immersive-engineering-2001.5.29-build.23.jar'
 name = 'KubeJS Immersive Engineering UNOFFICIAL'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kubejs-immersive-engineering-2001.5.29-build.23.jar'
 
 [download]
 hash = 'aa319636e1de4ce92a982a9fda1a954ed71f03a7'

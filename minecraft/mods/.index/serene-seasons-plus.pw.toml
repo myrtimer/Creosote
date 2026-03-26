@@ -1,16 +1,17 @@
-filename = 'Forge-Version-sereneseasonsplus-1.20.1-4.2.2.jar'
+filename = 'Forge-Version-sereneseasonsplus-1.20.1-0.5.0.0.jar'
 name = 'Serene Seasons Plus'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'Forge-1.20.1-0.5.0.0'
 
 [download]
-hash = '561eb20ddd724188ec508dc08fc5981b43d5eb5590912e86219485706fced196d50bf0150bd1a65d36b5d706b2c65ff489f366117258d2352806e682580c74b4'
+hash = 'e232310b456d2d76eba8a336c21fca747433f83cc9e2c869fc8556a593452ddf5a0c7edf96d76e06c17011ddd28a788008003fc8dfa3203c5532d8d7a6bb848f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/4Al4H3t9/versions/oiQhjm0K/Forge-Version-sereneseasonsplus-1.20.1-4.2.2.jar'
+url = 'https://cdn.modrinth.com/data/4Al4H3t9/versions/MPhKcmwf/Forge-Version-sereneseasonsplus-1.20.1-0.5.0.0.jar'
 
 [update.modrinth]
 mod-id = '4Al4H3t9'
-version = 'oiQhjm0K'
+version = 'MPhKcmwf'

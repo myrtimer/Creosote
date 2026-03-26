@@ -1,16 +1,17 @@
-filename = 'controlify-forgified-2.1.8-mc1.20.1-forge.jar'
-name = 'Controlify: Forgified'
-side = 'both'
+filename = 'controlify-forgified-2.1.9-mc1.20.1-forge.jar'
+name = 'Controlify Forgified (Unofficial)'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.9-mc1.20.1-forge'
 
 [download]
-hash = '39e285a2395574ee4285c44d80e020e4986ae1cf46e1ea13fe8f01cfbe25f16ae6ad4dc76344e64e92e63333471e316024e2cb9f5d3dafd5cf3ed734d95e2684'
+hash = 'b18d36be936adb4ea2fa9ac3118ce4f251eb559c0263a16e55f57888aae822b1f33dd466e48f107b107c74c1d9a38c680a0f8b38130e6ffdeae97a54b18785d2'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/G2K5sLls/versions/GP3WtCzF/controlify-forgified-2.1.8-mc1.20.1-forge.jar'
+url = 'https://cdn.modrinth.com/data/G2K5sLls/versions/Tzzphrug/controlify-forgified-2.1.9-mc1.20.1-forge.jar'
 
 [update.modrinth]
 mod-id = 'G2K5sLls'
-version = 'GP3WtCzF'
+version = 'Tzzphrug'

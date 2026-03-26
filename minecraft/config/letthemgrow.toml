@@ -3,15 +3,15 @@
 [letthemgrow]
 	#Once every tick, this is the percentage chance that growth will be blocked; so 99 is very slow, and 1 is fast.
 	#Range: 0 ~ 100
-	cropsSlowdownChance = 50
+	cropsSlowdownChance = 30
 	#Once every tick, this is the percentage chance that growth will be blocked; so 99 is very slow, and 1 is fast.
 	#Range: 0 ~ 100
-	livestockSlowdownChance = 70
+	livestockSlowdownChance = 50
 	#True to disable feeding any compatible items to child animals
 	blockFeedingYoung = true
 	#Once every tick, this is the percentage chance that growth will be blocked; so 99 is very slow, and 1 is fast.
 	#Range: 0 ~ 100
-	saplingSlowdownChance = 75
+	saplingSlowdownChance = 65
 	#When a cow is milked too often it becomes un-milkable for a time
 	limitedMilk = true
 

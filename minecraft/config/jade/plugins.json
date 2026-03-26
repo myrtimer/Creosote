@@ -90,5 +90,8 @@
   },
   "balm": {
     "jade": true
+  },
+  "immersivetechnology": {
+    "display": true
   }
 }

@@ -1,0 +1,67 @@
+//PSA: Remember to reload client to see changes.
+JEIEvents.hideItems(event => {
+
+    event.hide('createaddition:capacitor')
+
+    event.hide('createaddition:biomass')
+    event.hide('createaddition:biomass_pellet')
+    event.hide('createaddition:biomass_pellet_block')
+
+    event.hide('createaddition:seed_oil_bucket')
+    event.hide('createaddition:bioethanol_bucket')
+
+    event.hide('createaddition:barbed_wire')
+
+    event.hide('createaddition:rolling_mill')
+    event.hide('createaddition:creative_energy')
+    event.hide('createaddition:connector')
+    event.hide('createaddition:small_light_connector')
+    event.hide('createaddition:large_connector')
+    event.hide('createaddition:redstone_relay')
+    event.hide('createaddition:tesla_coil')
+    event.hide('createaddition:modular_accumulator')
+    event.hide('createaddition:portable_energy_interface')
+
+    event.hide('createaddition:electrum_ingot')
+    event.hide('createaddition:electrum_nugget')
+    event.hide('createaddition:electrum_sheet')
+    event.hide('createaddition:electrum_block')
+
+    event.hide('createaddition:zinc_sheet')
+
+    event.hide('createaddition:copper_wire')
+    event.hide('createaddition:iron_wire')
+    event.hide('createaddition:gold_wire')
+    event.hide('createaddition:electrum_wire')
+
+    event.hide('createaddition:spool')
+    event.hide('createaddition:copper_spool')
+    event.hide('createaddition:gold_spool')
+    event.hide('createaddition:electrum_spool')
+    event.hide('createaddition:festive_spool')
+
+    event.hide('createaddition:copper_rod')
+    event.hide('createaddition:iron_rod')
+    event.hide('createaddition:gold_rod')
+    event.hide('createaddition:electrum_rod')
+    event.hide('createaddition:brass_rod')
+
+    event.hide('create:copper_sheet')
+    event.hide('create:iron_sheet')
+    event.hide('create:gold_sheet')
+    event.hide('createaddition:zinc_sheet')
+
+    event.hide('electrodynamics:mineralcrusherdouble')
+    event.hide('electrodynamics:mineralcrushertriple')
+    event.hide('electrodynamics:electricarcfurnace')
+    event.hide('electrodynamics:electricfurnacedouble')
+    event.hide('electrodynamics:electricfurnacetriple')
+    event.hide('electrodynamics:mineralgrinderdouble')
+    event.hide('electrodynamics:mineralgrindertriple')
+    event.hide('electrodynamics:windmill')
+    event.hide('electrodynamics:hydroelectricgenerator')
+    event.hide('electrodynamics:reinforcedalloyer')
+    event.hide('electrodynamics:energizedalloyer')
+    event.hide('electrodynamics:wiremilldouble')
+    event.hide('electrodynamics:wiremilltriple')
+})

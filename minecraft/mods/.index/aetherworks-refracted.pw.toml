@@ -1,0 +1,17 @@
+filename = 'aetherworks-1.20.1-1.1.8.jar'
+name = 'Aetherworks Refracted'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'aetherworks-1.20.1-1.1.8.jar'
+
+[download]
+hash = '65a1c63c5c623d1c65b6cae1c4a225245ae85f7e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7456898
+project-id = 1071794
