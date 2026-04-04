@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"creosote:small_stature"
+	],
+	"icon": "minecraft:apple",
+	"order": 0,
+	"impact": 2,
+	"name": "Leathadh",
+	"description": "Small and friendly people"
+}

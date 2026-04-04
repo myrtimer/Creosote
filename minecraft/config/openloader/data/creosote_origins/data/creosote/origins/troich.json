@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"creosote:stout_stature"
+	],
+	"icon": "minecraft:stone",
+	"order": 0,
+	"impact": 2,
+	"name": "Troich",
+	"description": "A strange, quiet folk. Hardy, hungry and dependable"
+}

@@ -93,6 +93,14 @@
     },
     "orgins:phantom": {
       "enabled": true
+    },
+    "creosote:troich": {
+      "enabled": true,
+      "creosote:stout_stature": true
+    },
+    "creosote:leathadh": {
+      "enabled": true,
+      "creosote:small_stature": true
     }
   }
 }
