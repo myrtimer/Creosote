@@ -1,0 +1,18 @@
+filename = 'modflared-1.2.0+release.61.jar'
+name = 'Modflared'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0+release.61+1.20.1'
+
+[download]
+hash = '8d795af67b8660c9c0876d5c052fb17275dbbc7c98423b87e92415f8c47e5db1464bbbdb05520e5472b6f63b55ed2e51e2059c32f41915b6573e53b525e59dbf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uRHq6kbO/versions/6sx0Vsi0/modflared-1.2.0%2Brelease.61.jar'
+
+[update.modrinth]
+mod-id = 'uRHq6kbO'
+version = '6sx0Vsi0'

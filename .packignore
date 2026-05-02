@@ -1,5 +1,6 @@
 minecraft/.mixin.out
 minecraft/TrashSlotSaveState.json
+minecraft/asm
 minecraft/cache
 minecraft/coremods
 minecraft/data
@@ -10,14 +11,17 @@ minecraft/liboc2rnet.so
 minecraft/local
 minecraft/minemenu
 minecraft/modernfix
+minecraft/modflared
 minecraft/moonlight-global-datapacks
 minecraft/musicbox
+minecraft/options.txt
 minecraft/patchouli_data.json
 minecraft/rhino.local.properties
 minecraft/saves
 minecraft/schematics
 minecraft/screenshots
 minecraft/server-resource-packs
+minecraft/servers.dat
 minecraft/servers.dat_old
 minecraft/shaderpacks
 minecraft/texturepacks

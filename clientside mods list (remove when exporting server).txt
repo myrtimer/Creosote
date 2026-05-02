@@ -23,3 +23,4 @@ spyglass_improvements
 darkness
 world_preview
 YeetusExperimentus
+modflared
