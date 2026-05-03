@@ -31,3 +31,5 @@ minecraft/journeymap/journeymap.log
 /minecraft/.mixin.out
 /minecraft/exposures
 /minecraft/screenshots
+/testServ
+minecraft/servers.dat

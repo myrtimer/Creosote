@@ -24,3 +24,7 @@ darkness
 world_preview
 YeetusExperimentus
 modflared
+cloth-config
+MRU
+supermartijn642configlib
+yet_another_config_lib
