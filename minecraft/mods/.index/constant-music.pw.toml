@@ -1,0 +1,18 @@
+filename = 'constantmusic-forge-1.0.6+mc1.20.2.jar'
+name = 'Constant Music'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'forge-1.0.6+mc1.20.2'
+
+[download]
+hash = '40f7594c6a8567694d4eab2c438d84fa83027ca54dee337a99e7086851d3bd407f360830d46ff2f96477ff6ee6125f5a281b9c0f5242ed5b2b481a64b2dd0afe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tvuSEM6E/versions/gnNqflCp/constantmusic-forge-1.0.6%2Bmc1.20.2.jar'
+
+[update.modrinth]
+mod-id = 'tvuSEM6E'
+version = 'gnNqflCp'

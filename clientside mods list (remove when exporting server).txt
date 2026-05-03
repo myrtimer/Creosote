@@ -28,3 +28,5 @@ cloth-config
 MRU
 supermartijn642configlib
 yet_another_config_lib
+constantmusic
+nomusicpause
