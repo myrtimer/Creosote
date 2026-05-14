@@ -1,0 +1,12 @@
+{
+    "name": "Temperature",
+    "icon": "cold_sweat:thermometer",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "anchor": "temp1",
+            "type": "patchouli:text",
+            "text": "Finally you can get wet, cold and hot!"
+        }
+    ]
+}

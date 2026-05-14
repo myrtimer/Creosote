@@ -1,0 +1,22 @@
+{
+    "name": "Darkness",
+    "icon": "minecraft:lantern",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You can no longer see in very low light levels.$(br2)If an area is unlit and does not have a line of sight to the sky it will appear as pitch black darkness.$(br2)If you are on the surface and it's not a new moon (dark) you may be able to make out some things in the twilight."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [ "creosote:textures/images/edited_darkness_torch.png" ],
+            "text": "Holding light emitting items will illuminate your surroundings.",
+            "border": true
+        },
+        {
+            "type": "patchouli:image",
+            "images": [ "creosote:textures/images/edited_darkness_lantern.png" ],
+            "text": "Lanterns can be equipped to the belt slot and will act as if you were holding them."
+        }
+    ]
+}

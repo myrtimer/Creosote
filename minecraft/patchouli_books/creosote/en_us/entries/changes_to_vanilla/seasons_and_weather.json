@@ -1,0 +1,19 @@
+{
+    "name": "Seasons and weather",
+    "icon": "traverse:red_autumnal_sapling",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As time passes, so now do the seasons.$(br)Seasons affect the weather and ambient $(l:changes_to_vanilla/temperature#temp1)temperature$(), grass & foliage colour. $(br2)In temperate biomes there are four 24-day seasons (spring, summer, autumn, winter) and in dry or tropical biomes there are two 48-day seasons (wet, dry)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Temperate Seasons$()$(br)$(li)Spring$(li2)Biome temperatures rise$(li2)Warmer biomes thaw$(li2)Chances of rain increase$(li)Summer$(li2)Biome temperatures rise$(li2)Chances of storms increase$(li)Autumn$(li2)Biome temperatures fall$(li2)Weather clears$(li)Winter$(li2)Biome temperatures fall$(li2)Storms occur less often$(li2)Warmer biomes freeze"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Tropical/Dry Seasons$()$(br)$(li)Wet$(li2)Temperatures fall$(li2)Chances of rain$(li)Dry$(li2)Temperatures rise$(li2)Rain stops"
+        }
+    ]
+}

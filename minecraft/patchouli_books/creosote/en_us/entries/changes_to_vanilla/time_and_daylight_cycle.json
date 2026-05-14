@@ -1,0 +1,17 @@
+{
+    "name": "Time & daylight cycle",
+    "icon": "minecraft:clock",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The length of days has been doubled!$(br2)It now takes 40 minutes or 48,000 ticks for a full daylight cycle to pass.$(br2)Best not to worry about the meteorogical consequences..."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [ "creosote:textures/images/edited_night.png" ],
+            "text": "That dang ol' moon",
+            "border": true
+        }
+    ]
+}
