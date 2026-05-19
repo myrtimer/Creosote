@@ -14,12 +14,16 @@ minecraft/modernfix
 minecraft/modflared
 minecraft/moonlight-global-datapacks
 minecraft/musicbox
+minecraft/options.txt
 minecraft/patchouli_data.json
+minecraft/resourcepacks
 minecraft/rhino.local.properties
 minecraft/saves
 minecraft/schematics
 minecraft/screenshots
 minecraft/server-resource-packs
+minecraft/servers.dat
+minecraft/servers.dat_old
 minecraft/shaderpacks
 minecraft/texturepacks
 minecraft/usercache.json

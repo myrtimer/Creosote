@@ -251,7 +251,7 @@ ServerEvents.recipes(event => {
 
     //Bronze
 
-    event.remove({ id: 'immersiveengineering:alloysmelter/bronze'})
+    //event.remove({ id: 'immersiveengineering:alloysmelter/bronze'})
 
     //Removing the Immersive Engineering recipe for electrum ingot from nuggets, to make it fully oredictionary compatible
     event.remove({ id: 'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum' })
@@ -262,17 +262,17 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'immersiveengineering:alloysmelter/manyullyn' })
 
     //Removing methods to get brass before going to the nether
-    event.remove({ id: 'immersiveengineering:alloysmelter/brass' })
-    event.remove({ id: 'tconstruct:smeltery/alloys/molten_brass' })
-    event.custom({
-        type: 'tconstruct:alloy',
-        inputs: [
-            { tag: 'tconstruct:molten_copper', amount: 90 },
-            { tag: 'tconstruct:molten_zinc', amount: 90 }
-        ],
-        result: { fluid: 'tconstruct:molten_brass', amount: 180 },
-        temperature: 1100
-    })
+    //event.remove({ id: 'immersiveengineering:alloysmelter/brass' })
+    //event.remove({ id: 'tconstruct:smeltery/alloys/molten_brass' })
+    //event.custom({
+    //    type: 'tconstruct:alloy',
+    //    inputs: [
+    //        { tag: 'tconstruct:molten_copper', amount: 90 },
+    //        { tag: 'tconstruct:molten_zinc', amount: 90 }
+    //    ],
+    //    result: { fluid: 'tconstruct:molten_brass', amount: 180 },
+    //    temperature: 1100
+    //})
 
     //Steel is cooler than iron
     //event.remove({ id: 'cyber_ware_port:katana' })
