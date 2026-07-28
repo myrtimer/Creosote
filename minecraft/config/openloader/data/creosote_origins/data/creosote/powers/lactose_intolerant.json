@@ -1,0 +1,11 @@
+{
+    "name": "Lactose Intolerant",
+    "description": "Can't drink milk.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "forge:milk"
+        }
+    }
+}

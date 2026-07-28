@@ -1,17 +1,25 @@
-filename = 'chunksfadein-forge-3.0.20-1.20.jar'
-name = 'Chunks fade in'
+filename = 'chunksfadein-forge-3.0.25-1.20.jar'
+name = 'Chunks Fade In'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20', '1.20.1', '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'v3.0.20-1.20-forge'
+x-prismlauncher-version-number = 'v3.0.25-1.20-forge'
 
 [download]
-hash = '119350077fb9ba6b0cb41b03f3d7097e194df3b41f8b9e93eb3e6299cbe08454d3a8d1a468ccf04acfcd25cb6e1785e55b5741783ee32336cf006653e5331f85'
+hash = '586e19247b5253757c9a79d4cd895fb62e826ef66f774b1fdad560b43ed50f6d2926b9f23411925f94efec32a4a40647fc7564231e61d5d2af20c388f7f5603b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/JaNmzvA8/versions/c5haB3Bk/chunksfadein-forge-3.0.20-1.20.jar'
+url = 'https://cdn.modrinth.com/data/JaNmzvA8/versions/QhQKdIyw/chunksfadein-forge-3.0.25-1.20.jar'
 
 [update.modrinth]
 mod-id = 'JaNmzvA8'
-version = 'c5haB3Bk'
+version = 'QhQKdIyw'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YL57xq9U'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'

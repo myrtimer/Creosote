@@ -1,32 +1,18 @@
-filename = 'NoRealmsButton-2.0.2.jar'
-name = 'No Realms Button'
+filename = 'norealmsbutton-3.0.4+1.20-forge.jar'
+name = 'NoRealmsButton'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [
-    '1.20',
-    '1.20',
-    '1.20.1',
-    '1.20.1',
-    '1.20.2',
-    '1.20.2',
-    '1.20.3',
-    '1.20.3',
-    '1.20.4',
-    '1.20.4',
-    '1.20.5',
-    '1.20.5',
-    '1.20.6',
-    '1.20.6'
-]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.0.2'
+x-prismlauncher-version-number = '3.0.4+1.20-forge'
 
 [download]
-hash = 'c26196e7c41ffb87a0a82543218f6b064851cd0e20ba651d73f1b9f0a5feda60064004ee22001f12f70037da1bfebe50a118e51fece56bd3a6070dbe705051b4'
+hash = '955dc6aed79e01c499db74e68fbc181d6cd1407a4230389e76ab3b6bb3262c9133e321a17380c5e366e54b7b5ceda22a6d5e1a42e4eb0af747a8ee297b0c5955'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/AMMUyCdF/versions/TYRKC9pB/NoRealmsButton-2.0.2.jar'
+url = 'https://cdn.modrinth.com/data/AMMUyCdF/versions/Zx33o5gi/norealmsbutton-3.0.4%2B1.20-forge.jar'
 
 [update.modrinth]
 mod-id = 'AMMUyCdF'
-version = 'TYRKC9pB'
+version = 'Zx33o5gi'

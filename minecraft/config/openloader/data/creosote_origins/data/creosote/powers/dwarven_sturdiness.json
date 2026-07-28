@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Dwarven Sturdiness",
+  "description": "5 Extra hearts - Grow out, not up.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": 10.0,
+    "operation": "addition"
+  }
+}

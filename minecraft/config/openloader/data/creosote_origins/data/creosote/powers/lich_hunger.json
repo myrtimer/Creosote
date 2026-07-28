@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "name": "Withered Appetite",
+    "description": "You can't get hungry or starve and exhaust slower.",
+
+	"no_starving": {
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "starve"
+		}
+	},
+
+	"hunger_immunity": {
+		"type": "origins:effect_immunity",
+		"effect": "minecraft:hunger"
+	},
+
+	"small_appetite": {
+	    "type": "origins:modify_exhaustion",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": -0.5
+		}
+	},
+
+    "no_bar": {
+        "type": "origins:status_bar_texture",
+        "texture": "creosote:textures/gui/lich_icons.png"
+    }
+}

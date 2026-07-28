@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"creosote:lich_tint",
+		"creosote:burn_in_daylight",
+		"creosote:lich_hunger",
+		"creosote:darkvision",
+		"creosote:lactose_intolerant"
+	],
+	"icon": "minecraft:skeleton_skull",
+	"order": 0,
+	"impact": 2,
+	"name": "Lich",
+	"description": "One can become undead through powerful magical or chemical means. Liches have forsaken the sun and are cursed to roam til the end of days."
+}

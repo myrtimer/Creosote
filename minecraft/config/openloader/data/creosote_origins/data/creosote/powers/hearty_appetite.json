@@ -1,0 +1,9 @@
+{
+    "name": "Hearty Appetite",
+    "description": "Doubled Exhaustion - All that scrapping works up an appetite.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.25
+    }
+}

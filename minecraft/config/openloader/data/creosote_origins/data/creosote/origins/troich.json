@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"creosote:stout_stature",
+		"creosote:dwarven_sturdiness",
+		"creosote:heft",
+		"creosote:hearty_appetite"
+	],
+	"icon": "minecraft:stone",
+	"order": 0,
+	"impact": 2,
+	"name": "Troich",
+	"description": "A strange, quiet folk. Lost underground for many years, occassionally a few surface to recover relics of old magiks and industry."
+}

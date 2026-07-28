@@ -1,0 +1,18 @@
+filename = 'biome_beans-1.0.2.jar'
+name = 'Biome Beans'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Biome Beans'
+
+[download]
+hash = '5aa7aa6a68a0001800a645c98b8e210e4b49f35b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5101903
+project-id = 958387

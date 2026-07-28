@@ -1,17 +1,21 @@
-filename = 'gaboulibs-forge-1.7.1.jar'
-name = 'untitled1'
+filename = 'gaboulibs-forge-1.8.1.jar'
+name = 'gaboulibs'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Forge-1.7.1'
+x-prismlauncher-version-number = 'Forge-1.8.1'
 
 [download]
-hash = '6012de7e30090f56f9819641f5af42a35130f5e4c9a0d05671af5e3c21be6a12893b3209036517cb7563a6c6917bccfd0ee8744fd8bd250072ece3e885a75168'
+hash = '1fcc12c79f175cbe27b1d8fd4249084d96d63cddaeb9f888d3a2055c0bf8b0f2f52ef67fcf3c2dcba87549bf5faa48238ca60d7a779a1d4fe32da98ab63b8e2f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/N8aGZtvj/versions/z1s0a0Ue/gaboulibs-forge-1.7.1.jar'
+url = 'https://cdn.modrinth.com/data/N8aGZtvj/versions/LrdObW3d/gaboulibs-forge-1.8.1.jar'
 
 [update.modrinth]
 mod-id = 'N8aGZtvj'
-version = 'z1s0a0Ue'
+version = 'LrdObW3d'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

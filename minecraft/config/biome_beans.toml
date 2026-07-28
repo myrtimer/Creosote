@@ -1,0 +1,17 @@
+
+["Enable the spawning of rotten worms when using rotten beans"]
+	#true to enable, false to disable it
+	"Spawn Worms" = true
+
+["Increase the amount of magic beans that drop"]
+	#Increase the amount of magic beans that drop when breaking tall grass, default 1.0 [values accepted; 1.0, 2.0, 3.0, 4.0, 5.0]
+	"Drop Amount" = 1.0
+
+["Change the % rate of magic beans dropping"]
+	#Increase the % of magic beans dropping, default 5.0 [values accepted; 1.0, 5.0, 15.0, 30.0, 50.0]
+	"Drop Rate" = 5.0
+
+["Should the rotten bean effect the player when used"]
+	#true to enable, false to disable it
+	"Effect Player" = true
+

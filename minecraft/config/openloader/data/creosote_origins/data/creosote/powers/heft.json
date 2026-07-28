@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Heft",
+  "description": "Reduced received knockback - The steel in your bones is HEAVY.",
+  "modifier": {
+    "attribute": "minecraft:generic.knockback_resistance",
+    "value": -1.0,
+    "operation": "addition"
+  }
+}

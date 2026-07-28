@@ -1,20 +1,20 @@
-filename = 'surveyor-1.2.3+1.20.jar'
+filename = 'surveyor-1.2.4+1.20.jar'
 name = 'Surveyor Map Framework'
 side = ''
 x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.2.3+1.20'
+x-prismlauncher-version-number = '1.2.4+1.20'
 
 [download]
-hash = '9224c4930fa0def6ea94ac396dfb6361f41c2441d19ff8fd991b862d74a412e3fee0f6723d13c9dfb6a1f1c35ded9406b672c755d573b05aabd4fe24e18a5f7c'
+hash = '2465f73e659bdc8f1d68056fa8b142e765a037bca690f8354cb077b429e28556b0e380516939499a91761991be4ec69c0572f55f0059c0cc8ceee5fc36df295c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/4KjqhPc9/versions/4xTKSdqW/surveyor-1.2.3%2B1.20.jar'
+url = 'https://cdn.modrinth.com/data/4KjqhPc9/versions/6Wx9cnqi/surveyor-1.2.4%2B1.20.jar'
 
 [update.modrinth]
 mod-id = '4KjqhPc9'
-version = '4xTKSdqW'
+version = '6Wx9cnqi'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'

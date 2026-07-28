@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_on_callback",
+    "name": "Nimble",
+    "description": "Speed 1 - You're quick on your feet.",
+    "entity_action_respawned": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": -1,
+            "amplifier": 0,
+            "show_particles": false
+        }
+    },
+    "entity_action_chosen": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": -1,
+            "amplifier": 0,
+            "show_particles": false
+        }
+    },
+    "execute_chosen_when_orb": true
+}

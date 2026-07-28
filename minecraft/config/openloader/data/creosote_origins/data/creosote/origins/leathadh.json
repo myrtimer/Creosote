@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"creosote:small_stature",
+		"creosote:light",
+		"creosote:nimble",
+		"creosote:halfling_featherweight",
+		"creosote:weak"
+	],
+	"icon": "minecraft:apple",
+	"order": 0,
+	"impact": 2,
+	"name": "Leathadh",
+	"description": "Small and light on their feet. Save for a few mercenaries and thieves, he halflings are generally unbothered with the rest of the world"
+}

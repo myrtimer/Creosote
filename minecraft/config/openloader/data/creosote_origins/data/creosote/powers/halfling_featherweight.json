@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Halfling Featherweight",
+  "description": "3 Less hearts - Halflings are not renowned for their durability",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -6.0,
+    "operation": "addition"
+  }
+}
