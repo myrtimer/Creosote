@@ -1,4 +1,3 @@
-
 #─────────────────────────────────────────────────────────────────────────
 # Anywhere that uses entity IDs also supports:
 # • Tags (e.g. "#minecraft:skeletons")
@@ -79,7 +78,8 @@
 	# The time limit for how long a chameleon can wait to be shed by a player
 	# Has no effect if 'Chameleons Shed Automatically' is enabled
 	# ⌄ 
-	#Range: > 0
+	# Default: 6000
+	# Range: > 0
 	"Chameleon Interact Time Limit" = 6000
 
 ["Mob Spawning"]
@@ -112,4 +112,3 @@
 	    ["minecraft:grove", 5],
 	    ["minecraft:stony_peaks", 8]
 	]
-

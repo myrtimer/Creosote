@@ -1,4 +1,3 @@
-
 #.
 #Client Settings
 [client]
@@ -13,6 +12,6 @@
 	"Enable Lantern Swinging Physics" = true
 	#.
 	#How affected by in-world forces lantern physics should be. Default 1f
-	#Range: 0.10000000149011612 ~ 10.0
+	# Default: 1.0
+	# Range: 0.10000000149011612 ~ 10.0
 	"Lantern Bounciness" = 0.5
-

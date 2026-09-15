@@ -1,4 +1,3 @@
-
 [misc]
 	#Signed Album item will have an enchantment glint.
 	signed_album_glint = true
@@ -6,7 +5,3 @@
 	different_developing_potions_colors = true
 	#Generate photographs and film rolls in loot chests. Default: true
 	loot_chests = true
-	#Convert old photograph IDs to the new system (1.7 -> 1.9 update). Makes old photos visible, but results may be undesirable (missing pixels, different colors, etc).
-	#Default: true
-	datafix_old_ids = true
-

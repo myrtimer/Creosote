@@ -1,4 +1,3 @@
-
 [ui]
 	#Tooltips for Developing Film Rolls and Copying Photographs will be shown on Film Rolls and Photographs respectively, describing the crafting recipe. 
 	#Only when JEI is not installed. (Only JEI shows these recipes, not REI or EMI)
@@ -37,7 +36,9 @@
 	middle_click_controls = true
 	#How much zooming influences mouse sensitivity.
 	#0 - no change to sensitivity. 1 - full effect.
-	#Range: 0.0 ~ 1.0
+	#Default: 0.75
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
 	zoom_sensitivity_influence = 1.0
 	#Color in hex format. AARRGGBB.
 	background_color = "FA1F1D1B"
@@ -48,10 +49,12 @@
 	#HUD will be hidden while looking through viewfinder. Default: true
 	hide_hud_while_in_viewfinder = true
 	#X offset of a viewfinder status icon. Default: 0
-	#Range: -999 ~ 999
+	# Default: 0
+	# Range: -999 ~ 999
 	status_icon_offset_x = 0
 	#Y offset of a viewfinder status icon. Default: 0
-	#Range: -999 ~ 999
+	# Default: 0
+	# Range: -999 ~ 999
 	status_icon_offset_y = 0
 
 [capture]
@@ -62,7 +65,8 @@
 	keep_post_effect = false
 	#Delay in ticks before capturing an image when shooting with flash.
 	#If you experience flash synchronization issues (Flash having no effect on the image) - try increasing the value.
-	#Range: 1 ~ 8
+	# Default: 4
+	# Range: 1 ~ 8
 	flash_capture_delay_ticks = 4
 	#Force legacy (pre 1.21) capturing method for taking images. Enable if you experiencing issues with resulting images.
 	#Direct method will be used regardless of this setting if mods defined in 'force_direct_capture_default_mods' is installed.
@@ -74,7 +78,8 @@
 	#Delay in frames before capturing an image if 'direct_capture' method is in use.
 	#Set to higher value when leftovers of GUI elements (such as nameplates) are visible on the images
 	#(some shaders have temporal effects that take several frames to disappear fully)
-	#Range: 0 ~ 100
+	# Default: 0
+	# Range: 0 ~ 100
 	direct_capture_delay_frames = 0
 	#Sets the game to 'panoramic mode' when capturing the image with background capture method (default).
 	#Enabling this might fix some graphical issues, such as water being invisible.
@@ -108,10 +113,12 @@
 	censor_all_photographs_made_by_others = false
 	#Distance from the player beyond which Photograph Frame would not be rendered. Default: 64
 	#Note: this number may not relate to distance in blocks exactly. It's influenced by render distance and entity distance settings.
-	#Range: 8 ~ 128
+	# Default: 64
+	# Range: 8 ~ 128
 	photograph_frame_culling_distance = 64
 	#Depth offset to Photograph in Photograph Frame. Can be used to fix issues with some 3D resourcepacks. Value of 0.015 is good for 'Classic 3D' resourcepack. Default: 0.0
-	#Range: -1.0 ~ 1.0
+	# Default: 0.0
+	# Range: -1.0 ~ 1.0
 	photograph_frame_image_offset = 0.0
 
 [integration]
@@ -129,7 +136,8 @@
 	#Given the default exposure size of 320 pixels - this will produce:
 	#320/640/960/1280/etc image. Be careful with larger frame sizes.
 	#Default: 2
-	#Range: 1 ~ 10
+	# Default: 2
+	# Range: 1 ~ 10
 	export_size_multiplier = 2
 
 [tutorial]
@@ -139,4 +147,3 @@
 	#Toast that teaches wiki opening will be shown when attachments menu is first opened, after info toast. Default: true.
 	#*This setting will be automatically set to false on first show.*
 	attachments_show_wiki_toast = false
-

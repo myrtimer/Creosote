@@ -3,10 +3,9 @@
 	default_quest_shape: ""
 	filename: "beginnings"
 	group: ""
-	icon: "minecraft:compass"
 	id: "632B05AEC78EF33A"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
-	title: "Beginnings"
 }

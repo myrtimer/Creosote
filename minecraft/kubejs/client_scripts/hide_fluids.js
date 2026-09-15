@@ -1,5 +1,5 @@
-JEIEvents.hideFluids(event => {
+RecipeViewerEvents.removeEntries('item', event => {
 
-    event.hide('createaddition:seed_oil')
-    event.hide('createaddition:bioethanol')
+    event.remove('createaddition:seed_oil')
+    event.remove('createaddition:bioethanol')
 })

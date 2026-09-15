@@ -1,16 +1,17 @@
-filename = 'markdown_manual-MC1.20.1-forge-1.2.5+c3f0b88.jar'
+filename = 'markdown_manual-MC1.21.1-neoforge-1.2.7+f05450f.jar'
 name = 'Markdown Manual'
-side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2' ]
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MC1.21.1-neoforge-1.2.7'
 
 [download]
-hash = '0975449a600bf9c9ac6cd023c3cdd9bebd1f7e574c544357f729199f7c69019a08e2b2f46562e19cdb291e5b83b122c2d5e10aea32c11012d6844ac3554c993c'
+hash = 'c4526de6f8975561d12a4119c7f5fb81726c2b67e087f868fea4931eaadbc4b977f1c6370ac1dbcaf81ce8be9b391df5c2008d6da21a9033d62ef81d34898604'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/nPQ9xkPg/versions/oyfNmTsm/markdown_manual-MC1.20.1-forge-1.2.5%2Bc3f0b88.jar'
+url = 'https://cdn.modrinth.com/data/nPQ9xkPg/versions/DXJD7b8A/markdown_manual-MC1.21.1-neoforge-1.2.7%2Bf05450f.jar'
 
 [update.modrinth]
 mod-id = 'nPQ9xkPg'
-version = 'oyfNmTsm'
+version = 'DXJD7b8A'

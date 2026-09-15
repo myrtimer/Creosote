@@ -1,16 +1,17 @@
-filename = 'MineMenu-1.20.1-1.12.3.jar'
+filename = 'MineMenu-neoforge-1.21-1.14.2.jar'
 name = 'Mine Menu'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.14.2'
 
 [download]
-hash = '07d78e356314de4e522dc686e2df58c7778a08a60c4c5cb46e2a8aceadb71cd3eba7e7d9c5e01122a38c1f0bc8f47827511af4729b322e66cfc6670f26a60510'
+hash = '9307e3fca8b908cf4b62d8b3c78309abbb592ddd05710f107cd683a4280430bb4a3d549db8bee664fb9e33b8ccd717a480661874dea30bd46117d9a625e6bbcc'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/6HtC1GYa/versions/nJMYNfU1/MineMenu-1.20.1-1.12.3.jar'
+url = 'https://cdn.modrinth.com/data/6HtC1GYa/versions/LyMg1uqG/MineMenu-neoforge-1.21-1.14.2.jar'
 
 [update.modrinth]
 mod-id = '6HtC1GYa'
-version = 'nJMYNfU1'
+version = 'LyMg1uqG'

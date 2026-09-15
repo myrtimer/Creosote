@@ -1,4 +1,3 @@
-
 #─────────────────────────────────────────────────────────────────────────
 # Anywhere that uses item IDs also supports:
 # • Tags (e.g. "#minecraft:planks")
@@ -163,7 +162,8 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the effectiveness of insulating items in protecting against temperature
 	# ⌄ 
-	#Range: 0.0 ~ Infinity
+	# Default: 1.0
+	# Range: 0.0 ~ Infinity
 	"Insulation Strength" = 1.0
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines wearable items that cannot be insulated
@@ -194,28 +194,33 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines how much a waterskin will change the player's body temperature when used
 	# ⌄ 
-	#Range: > 0
+	# Default: 50
+	# Range: > 0
 	"Waterskin Strength" = 50
 	#─────────────────────────────────────────────────────────────────────────
 	# A multiplier for how effective a waterskin's over-time effect is, when held in the player's hotbar
 	# ⌄ 
-	#Range: 0.0 ~ Infinity
+	# Default: 1.0
+	# Range: 0.0 ~ Infinity
 	"Waterskin Hotbar Strength" = 1.0
 	#─────────────────────────────────────────────────────────────────────────
 	# A multiplier for how quickly a waterskin will return to its neutral temperature when being used in the hotbar
 	# ⌄ 
-	#Range: 0.0 ~ Infinity
+	# Default: 1.0
+	# Range: 0.0 ~ Infinity
 	"Waterskin Neutralize Speed" = 1.0
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines how many times a waterskin can be used before becoming empty
 	# ⌄ 
-	#Range: > 1
+	# Default: 1
+	# Range: > 1
 	"Waterskin Uses" = 1
 	#─────────────────────────────────────────────────────────────────────────
 	# Determines the strength of the Soulspring Lamp's effect before it is overwhelmed
 	# A value of 1 means it will never be overwhelmed
 	# ⌄ 
-	#Range: 0.0 ~ 1.0
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
 	"Soulspring Lamp Strength" = 0.6
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines items that can be used to dry the player
@@ -266,4 +271,3 @@
 ["Create Backtank"]
 	"Heat Drains Backtank" = true
 	"Cold Drains Backtank" = false
-

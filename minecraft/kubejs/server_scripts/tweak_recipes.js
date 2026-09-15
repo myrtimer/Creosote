@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createaddition:mechanical_crafting/alternator' })
     event.remove({ id: 'createaddition:mechanical_crafting/electric_motor' })
 
+/*
     event.recipes.immersiveengineering.blueprint('createaddition:alternator', ['1x immersiveengineering:component_iron', '1x immersiveengineering:component_electronic', '4x immersiveengineering:wirecoil_copper'], 'Motors & Alternators')
     event.recipes.immersiveengineering.blueprint('createaddition:electric_motor', ['1x immersiveengineering:component_iron', '1x immersiveengineering:component_electronic', '4x immersiveengineering:wirecoil_copper'], 'Motors & Alternators')
 
@@ -57,6 +58,7 @@ ServerEvents.recipes(event => {
                      C: 'minecraft:blue_dye',
                      D: 'minecraft:paper'
                  })
+*/
 
     //Straw (recipe change)
     event.remove({ id: 'createaddition:rolling/straw' })
@@ -113,7 +115,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing('immersiveengineering:plate_iron', 'minecraft:iron_ingot')
     event.remove({ id: 'create:pressing/gold_ingot' })
     event.recipes.create.pressing('immersiveengineering:plate_gold', 'minecraft:gold_ingot')
-
+    /*
     event.remove({ id: 'tconstruct:smeltery/casting/metal/copper/plate_gold_cast' })
     event.remove({ id: 'tconstruct:smeltery/casting/metal/copper/plate_sand_cast' })
     event.custom({
@@ -188,7 +190,7 @@ ServerEvents.recipes(event => {
         },
         result: { item: 'immersiveengineering:plate_gold' }
     })
-
+    */
     //Unify dusts and ingots
 
     //Iron
@@ -254,8 +256,8 @@ ServerEvents.recipes(event => {
     //event.remove({ id: 'immersiveengineering:alloysmelter/bronze'})
 
     //Removing the Immersive Engineering recipe for electrum ingot from nuggets, to make it fully oredictionary compatible
-    event.remove({ id: 'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum' })
-    event.shapeless('immersiveengineering:ingot_electrum', '9x #forge:nuggets/electrum')
+    //event.remove({ id: 'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum' })
+    //event.shapeless('immersiveengineering:ingot_electrum', '9x #forge:nuggets/electrum')
 
     //Removing some interactions to encourage alloying in smelters
     event.remove({ id: 'forestry:ingot_bronze_alloying' })

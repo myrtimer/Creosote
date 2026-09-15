@@ -4,4 +4,4 @@
 "Blacklisted Mods" = []
 "Mod Aliases" = ["nautralpledge=botania", "thermalexpansion=thermalfoundation", "thermaldynamics=thermalfoundation", "thermalcultivation=thermalfoundation", "redstonearsenal=thermalfoundation", "rftoolsdim=rftools", "rftoolspower=rftools", "rftoolscontrol=rftools", "ae2stuff=appliedenergistics2", "animus=bloodmagic", "integrateddynamics=integratedtunnels", "mekanismgenerators=mekanism", "mekanismtools=mekanism", "deepresonance=rftools", "xnet=rftools", "buildcrafttransport=buildcraft", "buildcraftfactory=buildcraft", "buildcraftsilicon=buildcraft"]
 "Hide Book Render" = false
-
+"Blacklisted Items" = ["primalmagick:lore_tablet_dirty", "primalmagick:lore_tablet_fragment"]

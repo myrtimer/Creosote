@@ -1,16 +1,17 @@
-filename = 'stattinkerer-forge-1.20.2-10.1.3.jar'
+filename = 'stattinkerer-neoforge-1.21.1-21.1.1.jar'
 name = 'Stat Tinkerer'
-side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.1'
 
 [download]
-hash = 'a1797859abbb45762321982bbf02adcc4e58289430b618544fa7a2c27fe828c369c7e154e8952a1fa205957768ba2559c19902bc94de59093a2320578835fbab'
+hash = '02e08139f2ccf1b8ebe2d17f9b6c19783812d29406ec194493071b34045dd007954d5fe4a4776ecc1a92ea218dadb9611f0fa54d079784d9911695d6f1480bcc'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/UAfajCcY/versions/AJMqUK7e/stattinkerer-forge-1.20.2-10.1.3.jar'
+url = 'https://cdn.modrinth.com/data/UAfajCcY/versions/vMZ7g5MY/stattinkerer-neoforge-1.21.1-21.1.1.jar'
 
 [update.modrinth]
 mod-id = 'UAfajCcY'
-version = 'AJMqUK7e'
+version = 'vMZ7g5MY'

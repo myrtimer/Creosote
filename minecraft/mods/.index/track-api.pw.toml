@@ -1,0 +1,17 @@
+filename = 'TrackAPI-1.21.1-neoforge-1.3.jar'
+name = 'Track API'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-neoforge-1.3'
+
+[download]
+hash = 'b79e5962e0fd9beffd158022278f31ea504c798b10ba652c8136217bc65c841ddd1a14cadd0da8398d9eb85603cb1ffe947180d6b5ca8c68eb4522e390a5289c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JMOE5Khs/versions/HUL3JKm5/TrackAPI-1.21.1-neoforge-1.3.jar'
+
+[update.modrinth]
+mod-id = 'JMOE5Khs'
+version = 'HUL3JKm5'

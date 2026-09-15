@@ -1,16 +1,17 @@
-filename = 'tis3d-MC1.20.1-forge-1.7.7+354a583.jar'
+filename = 'tis3d-MC1.21.1-neoforge-2.0.0+fff58fd.jar'
 name = 'TIS-3D'
-side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.1' ]
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MC1.21.1-neoforge-2.0.0'
 
 [download]
-hash = '5021f98d4fdf0d2206661d6d29dd57f0d03da032a5c411769eb064c4283d80e7fe4e241af48635cfcd9b9d4c91e7281f4f3f8feb99384e7115c9f685bd3c0977'
+hash = 'a54c0089453195bdb49d24fc0c18ff510a3fb01d8a9e411621f83c4f3ad496512d0fb34a251423621c8abf04051fe7fc6c491560d0e535a91065c038a96ac237'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/L23x7zL8/versions/9xvcu1ob/tis3d-MC1.20.1-forge-1.7.7%2B354a583.jar'
+url = 'https://cdn.modrinth.com/data/L23x7zL8/versions/NpsuTsrm/tis3d-MC1.21.1-neoforge-2.0.0%2Bfff58fd.jar'
 
 [update.modrinth]
 mod-id = 'L23x7zL8'
-version = '9xvcu1ob'
+version = 'NpsuTsrm'
